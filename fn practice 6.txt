@@ -1,0 +1,24 @@
+/*
+Write a program to find out whether a given character is an alphabet or
+not using functions.
+*/
+
+
+#include<iostream>
+using namespace std;
+
+bool isalphabet(char ch){
+	if(ch>='a'&&ch<='z')
+		return true;
+	else if(ch>='A'&&ch<='Z')
+		return true;
+	else
+		return false;
+}
+int main(){
+	char ch;
+	cout<<"Enter the character"<<endl;
+	cin>>ch;
+	
+	cout<<isalphabet(ch);
+}

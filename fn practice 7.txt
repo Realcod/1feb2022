@@ -1,0 +1,25 @@
+/*
+Write a program to find out whether a given number is even or odd
+using functions.
+*/
+
+
+#include<iostream>
+using namespace std;
+
+void isodd_even(int n){
+	if(n%2==0){
+		cout<<"It is an even number";
+	}
+	else{
+		cout<<"It is an odd number";
+	}
+	   
+}
+int main(){
+	int n;
+	cout<<"Enter the number"<<endl;
+	cin>>n;
+	
+	isodd_even(n);
+}
